@@ -9,7 +9,7 @@ from select import select
 
 # 创建监听套接字
 sock = socket()
-sock.bind(("0.0.0.0", 9889))
+sock.bind(("0.0.0.0", 8008))
 sock.listen(5)
 sock.setblocking(False)
 # 设置关注列表
